@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  height: 100%;
+  font-size: 0.375rem;
+}
+.container .header {
+  height: 1.40625rem;
+  display: flex;
+  align-items: center;
+}
+.container .header .site {
+  flex-basis: 1.5625rem;
+  padding-left: 0.15625rem;
+  color: #e06aa5;
+}
+.container .header .wang {
+  flex: 1;
+  text-align: center;
+}
+.container .header img {
+  flex-basis: 1.5625rem;
+  padding-right: 0.15625rem;
+  width: 0.40625rem;
+  height: 1.03125rem;
+}
+.container .main .nav .swiper-container {
+  width: 100%;
+  height: 4.6875rem;
+}
+.container .main .nav .swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+.container .main .spot {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.container .main .spot .pic {
+  width: 33.3333%;
+  padding: 0.15625rem;
+}
+.container .main .spot .pic img {
+  width: 100%;
+}
+.container .main .icon {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .main .icon a {
+  width: 25%;
+  border: 0.03125rem solid #d1d1d1;
+}
+.container .main .icon a img {
+  width: 100%;
+}
+.container .main .picture {
+  display: flex;
+  border-bottom: 0.03125rem solid #d1d1d1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.container .main .picture .left {
+  flex: 1;
+  border-right: 0.03125rem solid #d1d1d1;
+}
+.container .main .picture .left img {
+  width: 100%;
+}
+.container .main .picture .right {
+  flex: 1;
+}
+.container .main .picture .right img {
+  width: 100%;
+  border-bottom: 0.03125rem solid #d1d1d1;
+}
+.container .main .play .top {
+  height: 0.9375rem;
+  background-color: #f1f1f1;
+  line-height: 0.9375rem;
+}
+.container .main .play .top span {
+  font-size: 16px;
+  padding-left: 10px;
+}
+.container .main .play .bottom img {
+  width: 100%;
+  border-bottom: 1px solid #d1d1d1;
+}
+.container .main .option {
+  margin-top: 10px;
+}
+.container .main .option .top {
+  background-color: #f7f7f7;
+  height: 0.9375rem;
+  line-height: 0.9375rem;
+  text-align: center;
+  display: flex;
+}
+.container .main .option .top .left {
+  flex: 1;
+  font-size: 16px;
+  color: #d3079e;
+  text-align: center;
+}
+.container .main .option .top .left p {
+  width: 1.25rem;
+  height: 0.625rem;
+  background-color: #d3079e;
+  margin-left: 2.96875rem;
+}
+.container .main .option .top .right {
+  flex: 1;
+  font-size: 16px;
+}
+.container .main .option .zhong img {
+  width: 100%;
+  height: 4.6875rem;
+}
+.container .main .option .bottom .game {
+  font-size: 16px;
+}
+.container .main .option .bottom .games {
+  font-size: 16px;
+}
+.container .footer {
+  margin-top: 0.3125rem;
+  width: 100%;
+}
+.container .footer .bottom {
+  height: 1.5625rem;
+  font-size: 0.4375rem;
+  text-align: center;
+  line-height: 0.625rem;
+  padding: 0.625rem;
+  padding: 0.625rem 0rem;
+}
+.container .footer .base {
+  background-color: #d3079e;
+  height: 0.9375rem;
+  display: flex;
+}
+.container .footer .base .left {
+  flex: 1;
+  line-height: 0.9375rem;
+  color: white;
+  padding-left: 0.3125rem;
+}
+.container .footer .base .left .login {
+  padding-left: 0.15625rem;
+}
+.container .footer .base .right {
+  flex: 1;
+  text-align: right;
+  line-height: 0.9375rem;
+  color: white;
+  padding-right: 0.3125rem;
+}
+
+/*# sourceMappingURL=index.css.map */
